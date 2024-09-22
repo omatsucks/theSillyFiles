@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper{
+    display: contents;
+    width: 100px;
+}
+
+button{
+    justify-content: center;
+    align-items: center;
+    margin: center;
+    background-color: #181818;
+    color: #ffffff;
+    border: 2;
+    border-style: none;
+    border-radius: 25px;
+    border-color: rgb(15, 15, 15);
+    padding: 20px 20px 20px 20px;
+    font-size: 20px;
+    transition: .25s;
+    margin: 3px 3px 3px 3px;
+}
+
+
+button:hover {
+    transition: .25s;
+    box-shadow: 3px 3px 5px rgb(15, 15, 15);
+    background-color: #2e2e2e;
+    cursor: pointer;
+}
+.center {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    font-weight: 800;
+    position: sticky;
+    font-size: 150px;
+    transition: .25s;
+}
+
+.header:hover {
+    transition: .25s;
+    color: rgb(216, 216, 216);
+    text-shadow: 0px 0px 1cm black;
+    cursor: default;
+}
+
+
+body {
+    background-color: rgb(216, 216, 216);
+}
+
+.Articles {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sussyheader {
+    font-size: 55px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dailyItem {
+    transition: .25s;
+    background-color: #181818;
+    color: #191919;
+    width: 43.5cm;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1cm;
+    border-radius: 25px;
+    margin-bottom: 18px;
+}
+
+#dailyItem:hover {
+    transition: .25s;
+    box-shadow: 3px 3px 5px rgb(15, 15, 15);
+    background-color: #2e2e2e;
+    cursor: pointer;
+    display: flex;
+    color: white;
+}
