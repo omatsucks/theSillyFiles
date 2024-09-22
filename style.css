@@ -1,11 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
+    
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: .5rem;
+    padding-right: .5rem;
 }
 
 .wrapper{
@@ -14,6 +24,8 @@
 }
 
 button{
+    width: 1000px;
+    height: 150px;
     justify-content: center;
     align-items: center;
     margin: center;
@@ -64,12 +76,18 @@ body {
 }
 
 .Articles {
+    height: auto;
     width: 100%;
     height: auto;
-    display: flex;
     justify-content: center;
     align-items: center;
-    
+    max-width: 150%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .sussyheader {
@@ -85,18 +103,20 @@ body {
     transition: .25s;
     background-color: #181818;
     color: #191919;
-    width: 43.5cm;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1cm;
+    font-size: 300%;
     border-radius: 25px;
     margin-bottom: 18px;
 }
-
+a{
+    text-decoration: none;
+}
 #dailyItem:hover {
     transition: .25s;
     box-shadow: 3px 3px 5px rgb(15, 15, 15);
@@ -104,4 +124,133 @@ body {
     cursor: pointer;
     display: flex;
     color: white;
+}
+
+.button1,
+.button2,
+.button3,
+.button4 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media (max-width:2513px) {
+    .container {
+        max-width: 2000px;
+    }
+    .Articles {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        display: inline;
+        
+        max-width: 150%;
+        height: auto;
+        width: 1000px;
+        height: 150px;
+    }
+    .button1,
+    .button2,
+    .button3,
+    .button4 {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-size: 40px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #dailyItem {
+        font-size: 1cm;
+    }
+
+    
+}
+
+
+
+@media (max-width:1999px) {
+    .container {
+        max-width: 1700px;
+    }
+    
+    .Articles {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        display: inline;
+        max-width: 200%;
+    }
+    #dailyItem {
+        font-size: 7mm;
+    }
+
+    .button1,
+    .button2,
+    .button3,
+    .button4 {
+        font-size: 300px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        max-width: 150%;
+        font-size: 50px;
+        width: 100%
+        
+
+    }
+    
+}
+
+@media (max-width:1043px) {
+    .container {
+        max-width: 700px;
+    }
+    .header {
+        font-size: 60px;
+    }
+    .sussyheader {
+        font-size: 40px;
+    }
+    #dailyItem {
+        font-size: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 100%;
+    }
+    .Articles {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        display: inline;
+        max-width: 150%;
+    }
+
+    .button1,
+    .button2,
+    .button3,
+    .button4 {
+        font-size: 30px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        max-width: 150%;
+        width: 100%
+        
+
+    }
+    
 }

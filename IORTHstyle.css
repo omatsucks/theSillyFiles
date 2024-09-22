@@ -31,8 +31,9 @@ body{
     border-color: rgb(109, 109, 109);
     border-radius: 9999999999px;
     background-color: rgb(109, 109, 109);
-    margin-right: -10cm;
-    margin-left: -10cm;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
 }
 .Article{
     text-shadow: 1px 1px 1px black;
@@ -74,4 +75,40 @@ button:hover {
     box-shadow: 3px 3px 5px rgb(24, 24, 24);
     background-color: #2e2e2e;
     cursor: pointer;
+}
+
+@media (max-width:870px) {
+    .sticky {
+        font-size: 20px;
+    }
+
+    .semiheader {
+        font-size: 20px;
+    }
+
+    .Article {
+        font-size: 15px;
+    }
+
+    button {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:560px) {
+    .sticky {
+        font-size: 10px;
+    }
+
+    .semiheader {
+        font-size: 10px;
+    }
+
+    .Article {
+        font-size: 7.5px;
+    }
+
+    button {
+        font-size: 10px;
+    }
 }
