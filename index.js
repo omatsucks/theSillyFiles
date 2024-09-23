@@ -19,10 +19,10 @@ function getDailyItem(items) {
 
 // Example usage:
 const items = [
-    { text: 'Is Omat really that huge?', link: 'IORTH.html' },
-    { text: 'The Tragic Tale of Ahmed\'s Brainrot: From King of Comedy to Walking Meme', link: 'Ahmed.html' },
-    { text: 'The Rise and Fall of YoYoM: A Tale of Ego Gone Wild', link: 'yoyo.html' },
-    { text: '"Ahmad, I Got Light!" – The Hilarious Tale of Mischievous and His Shiny New Power', link: 'mischievous.html' }
+    { text: 'Is Omat really that huge?', link: 'omat' },
+    { text: 'The Tragic Tale of Ahmed\'s Brainrot: From King of Comedy to Walking Meme', link: 'Ahmed' },
+    { text: 'The Rise and Fall of YoYoM: A Tale of Ego Gone Wild', link: 'yoyo' },
+    { text: '"Ahmad, I Got Light!" – The Hilarious Tale of Mischievous and His Shiny New Power', link: 'mischievous' }
 ];
 
 const dailyItem = getDailyItem(items);
