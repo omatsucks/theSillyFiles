@@ -254,3 +254,12 @@ a{
     }
     
 }
+
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: white;
+    }
+}
