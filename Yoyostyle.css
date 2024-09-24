@@ -114,7 +114,45 @@ button:hover {
 }
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: black;
+        background-color: rgb(37, 37, 37);
         color: white;
+    }
+    .semiheader{
+        color: white;
+    }
+    .semiheader {   
+        font-size: 1cm;
+        transition: 0.25s;
+        color: rgb(255, 255, 255);
+        width: auto;
+        cursor: default;
+    }
+    
+    .semiheader:hover {
+        transition: 0.25s;
+        color: rgb(237, 237, 237);
+        text-shadow: 2px 2px 4px rgb(173, 173, 173);
+        cursor: default;
+    }
+    
+    button {
+        justify-content: center;
+        align-items: center;
+        margin: center;
+        background-color: #ffffff;
+        color: #000000;
+        border: 2;
+        border-style: none;
+        border-radius: 50px;
+        border-color: rgb(216, 216, 216);
+        padding: 20px 20px 20px 20px;
+        font-size: 30px;
+        transition: .25s;
+    }
+    button:hover {
+        transition: .25s;
+        box-shadow: 3px 3px 5px rgb(163, 163, 163);
+        background-color: #bbbbbb;
+        cursor: pointer;
     }
 }
