@@ -257,11 +257,10 @@ a{
 
 
 /* Dark mode */
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: rgb(37, 37, 37);
-        color: white;
-    }
+.dark-mode {
+
+    background-color: rgb(37, 37, 37);
+    color: white;
 
     #dailyItem {
         transition: .25s;
