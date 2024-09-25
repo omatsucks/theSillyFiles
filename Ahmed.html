@@ -12,7 +12,9 @@
     </head>
     <body>
         <script>
-        document.cookie = "isDark=true";
+        if(document.cookie){
+            console.log("This guy is using dark mode")
+        }
         </script>
         </script>
         <div class="center" >
