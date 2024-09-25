@@ -112,11 +112,10 @@ button:hover {
     }
 }
 
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: rgb(37, 37, 37);
-        color: white;
-    }
+.dark-mode {
+    background-color: rgb(37, 37, 37);
+    color: white;
+
     .semiheader{
         color: white;
     }
