@@ -12,19 +12,8 @@
     </head>
     <body>
         <script>
-            function myFunction() {
-                var element = document.body;
-                element.classList.toggle("dark-mode");
-            }
-            const body = document.querySelector("body");
-            const toggleMode = document.querySelector(".toggle");
-
-            toggleMode.addEventListener("click", () => {
-            let actualTheme = body.className;
-
-            localStorage.setItem("dark-mode", actualTheme);
-            body.classList.toggle("dark-mode");
-            });
+        document.cookie = "isDark=true";
+        </script>
         </script>
         <div class="center" >
             <h1 class="sticky">The Tragic Tale of Ahmed's Brainrot: From King of Comedy to Walking Meme</h1>
