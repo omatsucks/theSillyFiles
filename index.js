@@ -22,7 +22,8 @@ const items = [
     { text: 'Is Omat really that huge?', link: 'omat' },
     { text: 'The Tragic Tale of Ahmed\'s Brainrot: From King of Comedy to Walking Meme', link: 'Ahmed' },
     { text: 'The Rise and Fall of YoYoM: A Tale of Ego Gone Wild', link: 'yoyo' },
-    { text: '"Ahmad, I Got Light!" – The Hilarious Tale of Mischievous and His Shiny New Power', link: 'mischievous' }
+    { text: '"Ahmad, I Got Light!" – The Hilarious Tale of Mischievous and His Shiny New Power', link: 'mischievous' },
+    { text: 'Welcome to Sillyville: The Ultimate Playground of Fun and Whimsy!', link: 'sillyville' }
 ];
 
 const dailyItem = getDailyItem(items);
