@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(0, 0, 0);
+}
+
+.center {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+.BIG {
+  font-size: 70px;
+}
+.BIG:hover {
+  transition: 0.25s;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 4px rgb(255, 255, 255);
+  cursor: default;
+}
+button {
+  width: 150px;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+  margin: center;
+  background-color: #181818;
+  color: #ffffff;
+  border: 2;
+  border-style: none;
+  border-radius: 25px;
+  border-color: rgb(15, 15, 15);
+  padding: 20px 20px 20px 20px;
+  font-size: 20px;
+  transition: 0.25s;
+  margin: 3px 3px 3px 3px;
+}
+
+button:hover {
+  transition: 0.25s;
+  box-shadow: 3px 3px 5px rgb(15, 15, 15);
+  background-color: #2e2e2e;
+  cursor: pointer;
+}
+.asdw {
+  border-top: 3px solid #fff;
+  font-size: 20px;
+  border-bottom: 3px solid #fff;
+}
+@media (max-width: 870px) {
+  .sticky {
+    font-size: 20px;
+  }
+
+  .semiheader {
+    font-size: 20px;
+  }
+
+  .Article {
+    font-size: 15px;
+  }
+
+  button {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 560px) {
+  .sticky {
+    font-size: 10px;
+  }
+
+  .semiheader {
+    font-size: 10px;
+  }
+
+  .Article {
+    font-size: 7.5px;
+  }
+
+  button {
+    font-size: 10px;
+  }
+}
